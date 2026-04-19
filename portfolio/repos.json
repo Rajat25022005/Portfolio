@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1164569477,
+    "name": "think-in-silence",
+    "description": "A model that reasons in pure latent space — no tokens, no chain-of-thought labels, no reinforcement learning.",
+    "html_url": "https://github.com/Rajat25022005/think-in-silence",
+    "language": "Python",
+    "updated_at": "2026-04-18T18:23:55Z",
+    "stargazers_count": 2
+  },
+  {
+    "id": 1212728872,
+    "name": "Tensor-AI",
+    "description": "TensorAI is an autonomous business intelligence platform powered by multi-agent reasoning and graph-augmented memory. Connect your documents, emails, and databases — get an AI that doesn't just answer questions but understands how your organization's knowledge evolves over time. Local-first, privacy-preserving, no black boxes.",
+    "html_url": "https://github.com/Rajat25022005/Tensor-AI",
+    "language": "Python",
+    "updated_at": "2026-04-18T09:48:27Z",
+    "stargazers_count": 0
+  },
+  {
+    "id": 1212591403,
+    "name": "Visual-Deep-Research",
+    "description": "Multimodal autonomous research agent that extracts knowledge from both web articles and the charts, diagrams, and paper figures inside them — fusing text + visual findings into a Neo4j knowledge graph via LLaVA + OCR.",
+    "html_url": "https://github.com/Rajat25022005/Visual-Deep-Research",
+    "language": null,
+    "updated_at": "2026-04-16T14:30:50Z",
+    "stargazers_count": 0
+  },
+  {
+    "id": 1001355434,
+    "name": "Rajat25022005",
+    "description": null,
+    "html_url": "https://github.com/Rajat25022005/Rajat25022005",
+    "language": "HTML",
+    "updated_at": "2026-04-14T13:11:15Z",
+    "stargazers_count": 1
+  },
+  {
+    "id": 1204761366,
+    "name": "CodeMind",
+    "description": "AI-native codebase memory engine. Ingests your git history, builds a temporal knowledge graph, and answers why questions about your code — all locally via Ollama. Ask \"why was this rewritten?\" and get evidence-backed answers from your own commits.",
+    "html_url": "https://github.com/Rajat25022005/CodeMind",
+    "language": "Python",
+    "updated_at": "2026-04-13T07:12:05Z",
+    "stargazers_count": 1
+  },
+  {
+    "id": 991450763,
+    "name": "Intelligent-Mail-Assistant",
+    "description": "A smart Gmail automation tool built with Python, leveraging a local LLM (via Ollama) for email triage and context-aware response generation. It securely integrates with Gmail, checks for new mail continuously, and ensures safe auto-sending with user confirmation.",
+    "html_url": "https://github.com/Rajat25022005/Intelligent-Mail-Assistant",
+    "language": "Python",
+    "updated_at": "2026-04-12T10:10:38Z",
+    "stargazers_count": 7
+  },
+  {
+    "id": 1117302556,
+    "name": "Nexus-chat",
+    "description": "An Agentic Workplace Chat Application where AI retains team context. Features secure RAG pipelines, sub-second latency messaging, and strict data isolation per room. Built with MERN, LangChain, and Vector Search.",
+    "html_url": "https://github.com/Rajat25022005/Nexus-chat",
+    "language": "TypeScript",
+    "updated_at": "2026-03-24T08:37:48Z",
+    "stargazers_count": 2
+  },
+  {
+    "id": 1086926814,
+    "name": "Multiagents",
+    "description": "Multi-Agent Task Execution System A sophisticated AI-powered system that intelligently decomposes complex tasks, assigns them to specialized LLM agents, and generates implementation files. Features automatic model selection, web search capabilities, and an extensible architecture for adding new agents. ",
+    "html_url": "https://github.com/Rajat25022005/Multiagents",
+    "language": "Python",
+    "updated_at": "2026-02-27T09:35:39Z",
+    "stargazers_count": 0
+  },
+  {
+    "id": 1159035554,
+    "name": "self-supervised-text-jepa",
+    "description": "A research implementation of Joint Embedding Predictive Architectures (JEPA) for text.  Unlike traditional LLMs that predict next tokens, T-JEPA learns semantic representations  by predicting abstract concepts in latent space. Uses momentum encoders (teacher-student)  and operates entirely in embedding space without generative decoding. ",
+    "html_url": "https://github.com/Rajat25022005/self-supervised-text-jepa",
+    "language": "Python",
+    "updated_at": "2026-02-21T10:02:49Z",
+    "stargazers_count": 0
+  },
+  {
+    "id": 1135486761,
+    "name": "argus-v-graph-reasoning",
+    "description": "Spatio-temporal video reasoning engine using causal graphs, identity grounding, and multimodal AI. ",
+    "html_url": "https://github.com/Rajat25022005/argus-v-graph-reasoning",
+    "language": null,
+    "updated_at": "2026-01-31T13:23:28Z",
+    "stargazers_count": 0
+  },
+  {
+    "id": 1138888322,
+    "name": "fs2",
+    "description": null,
+    "html_url": "https://github.com/Rajat25022005/fs2",
+    "language": "JavaScript",
+    "updated_at": "2026-01-21T08:44:40Z",
+    "stargazers_count": 0
+  },
+  {
+    "id": 997733282,
+    "name": "RAG_faq_chatbot",
+    "description": "This project uses a Python backend and a vanilla JS frontend to create a private, local chatbot powered by a RAG architecture and Ollama.",
+    "html_url": "https://github.com/Rajat25022005/RAG_faq_chatbot",
+    "language": "CSS",
+    "updated_at": "2026-01-18T09:43:04Z",
+    "stargazers_count": 1
+  },
+  {
+    "id": 1029139803,
+    "name": "Smart_Campus_Helpdesk",
+    "description": "A multi-agent AI helpdesk system for smart campuses using locally-hosted LLMs (Ollama/LM Studio). Features specialized agents for academics, finance, and events with MCP-style communication, FastAPI backend, and React chat interface. Runs completely offline with modular, extensible architecture.",
+    "html_url": "https://github.com/Rajat25022005/Smart_Campus_Helpdesk",
+    "language": null,
+    "updated_at": "2025-11-11T07:06:58Z",
+    "stargazers_count": 0
+  },
+  {
+    "id": 1031756000,
+    "name": "my-project-1",
+    "description": null,
+    "html_url": "https://github.com/Rajat25022005/my-project-1",
+    "language": "JavaScript",
+    "updated_at": "2025-11-07T19:31:09Z",
+    "stargazers_count": 0
+  },
+  {
+    "id": 1009504032,
+    "name": "sanke_game",
+    "description": null,
+    "html_url": "https://github.com/Rajat25022005/sanke_game",
+    "language": "Python",
+    "updated_at": "2025-06-27T08:46:03Z",
+    "stargazers_count": 0
+  }
+]

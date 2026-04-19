@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #0a0a0a;
+    --fg: #f0ede6;
+    --fg2: #888888;
+    --accent: #f0ede6;
+    --border: rgba(240, 237, 230, 0.12);
+    --card-bg: rgba(240, 237, 230, 0.04);
+  }
+
+  .light {
+    --bg: #f0ede6;
+    --fg: #0a0a0a;
+    --fg2: #666666;
+    --accent: #0a0a0a;
+    --border: rgba(10, 10, 10, 0.12);
+    --card-bg: rgba(10, 10, 10, 0.04);
+  }
+
+  html, body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Syne', sans-serif;
+    transition: background 0.4s, color 0.4s;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: var(--fg);
+    color: var(--bg);
+  }
+}
