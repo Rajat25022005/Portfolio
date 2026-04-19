@@ -63,7 +63,8 @@ const Home = () => {
         <motion.div
           animate={{ rotate: 360 }}
           transition={{ repeat: Infinity, ease: "linear", duration: 60 }}
-          className="text-[50vw] md:text-[40vw] font-display font-black leading-none opacity-10 text-fg select-none"
+          style={{ willChange: "transform" }}
+          className="text-[50vw] md:text-[40vw] font-display font-black leading-none opacity-10 text-fg select-none transform-gpu"
         >
           RM
         </motion.div>
@@ -74,7 +75,8 @@ const Home = () => {
         <motion.div 
           animate={{ x: ["0%", "-50%"] }}
           transition={{ repeat: Infinity, ease: "linear", duration: 22 }}
-          className="flex gap-[3rem] whitespace-nowrap text-[0.75rem] tracking-[0.1em] uppercase opacity-70 w-max"
+          style={{ willChange: "transform" }}
+          className="flex gap-[3rem] whitespace-nowrap text-[0.75rem] tracking-[0.1em] uppercase opacity-70 w-max transform-gpu"
         >
           {/* Double up the content for seamless infinite loop */}
           <div className="flex gap-[3rem]">

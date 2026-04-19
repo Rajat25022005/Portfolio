@@ -9,7 +9,7 @@ export const NAV_LINKS = [
 
 export const SOCIAL_LINKS = [
   { id: 'github', icon: 'fa-brands fa-github', url: 'https://github.com/Rajat25022005' },
-  { id: 'linkedin', icon: 'fa-brands fa-linkedin', url: 'https://linkedin.com/in/rajat-malik' },
+  { id: 'linkedin', icon: 'fa-brands fa-linkedin', url: 'https://www.linkedin.com/in/rajat-malik-a62876278' },
   { id: 'huggingface', icon: 'fa-solid fa-face-smiling-hands', url: 'https://huggingface.co/rajat5039' },
   { id: 'email', icon: 'fa-solid fa-envelope', url: 'mailto:rajatmalik5039@gmail.com' }
 ];

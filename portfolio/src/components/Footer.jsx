@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { SOCIAL_LINKS } from '../data/constants';
 
 const Footer = () => {
   const scrollToSection = (id) => {
@@ -28,9 +29,17 @@ const Footer = () => {
         <Link to="/contact" className="hover:opacity-100 transition-opacity">Contact</Link>
       </div>
       <div className="flex gap-[1.5rem] justify-end text-[0.75rem] tracking-[0.08em] uppercase opacity-70 max-md:justify-center">
-        <a href="https://github.com/rajatmalik" target="_blank" rel="noreferrer" className="hover:opacity-100 transition-opacity">GitHub</a>
-        <a href="https://linkedin.com/in/rajatmalik" target="_blank" rel="noreferrer" className="hover:opacity-100 transition-opacity">LinkedIn</a>
-        <a href="https://huggingface.co/rajatmalik" target="_blank" rel="noreferrer" className="hover:opacity-100 transition-opacity">HuggingFace</a>
+        {SOCIAL_LINKS.filter(l => l.id !== 'email').map(link => (
+          <a
+            key={link.id}
+            href={link.url}
+            target="_blank"
+            rel="noreferrer"
+            className="hover:opacity-100 transition-opacity capitalize"
+          >
+            {link.id}
+          </a>
+        ))}
       </div>
       <div className="col-span-full border-t border-border pt-[1.5rem] text-[0.73rem] opacity-30 flex justify-between max-md:flex-col max-md:gap-[0.5rem] max-md:text-center">
         <span>© {new Date().getFullYear()} Rajat Malik</span>

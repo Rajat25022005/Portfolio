@@ -158,17 +158,23 @@ const ChatBot = () => {
 
       {/* Floating Button */}
       <motion.button
+        initial={{ opacity: 0, scale: 0.5, y: 20 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        transition={{ delay: 3.5, duration: 0.5, ease: "easeOut" }}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         onClick={() => setIsOpen(!isOpen)}
-        className="w-14 h-14 rounded-full bg-fg text-bg flex items-center justify-center shadow-xl border-2 border-bg"
+        className="flex items-center gap-2 px-6 h-14 rounded-full bg-fg text-bg shadow-xl border-2 border-bg transition-all duration-300"
       >
         {isOpen ? (
-          <span className="text-xl">×</span>
+          <span className="text-xl font-bold">×</span>
         ) : (
-          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2C6.477 2 2 6.477 2 12c0 1.821.487 3.53 1.338 5L2 22l5-1.338c1.47.851 3.179 1.338 5 1.338 5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18c-1.477 0-2.857-.405-4.033-1.107l-2.85.762.762-2.85A7.94 7.94 0 014 12c0-4.411 3.589-8 8-8s8 3.589 8 8-3.589 8-8 8z" />
-          </svg>
+          <>
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 1.821.487 3.53 1.338 5L2 22l5-1.338c1.47.851 3.179 1.338 5 1.338 5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18c-1.477 0-2.857-.405-4.033-1.107l-2.85.762.762-2.85A7.94 7.94 0 014 12c0-4.411 3.589-8 8-8s8 3.589 8 8-3.589 8-8 8z" />
+            </svg>
+            <span className="text-[0.8rem] font-black uppercase tracking-[0.1em]">Ask my AI</span>
+          </>
         )}
       </motion.button>
     </div>
