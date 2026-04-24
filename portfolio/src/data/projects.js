@@ -119,5 +119,49 @@ export const projects = [
     links: {
       github: 'https://github.com/Rajat25022005/RAG_faq_chatbot'
     }
+  },
+  {
+    id: 12,
+    title: 'Silent-Bridge',
+    description: 'A model that reasons bidirectionally in latent space — forward from the question, backward from the answer, meeting at a learned proof midpoint. Training-only backward pass, zero inference overhead.',
+    category: 'research',
+    featured: true,
+    tags: ['Python', 'Latent Space', 'Deep Learning'],
+    links: {
+      github: 'https://github.com/Rajat25022005/Silent-Bridge'
+    }
+  },
+  {
+    id: 13,
+    title: 'Spatio-Temporal Video Transformer',
+    description: 'From-scratch ViT-style Transformer for spatio-temporal video understanding. Explores factorized attention across space and time for action classification on UCF-101.',
+    category: 'research',
+    featured: false,
+    tags: ['Python', 'Vision Transformer', 'Computer Vision'],
+    links: {
+      github: 'https://github.com/Rajat25022005/spatio-temporal-video-transformer'
+    }
+  },
+  {
+    id: 14,
+    title: 'Hindi-English Transformer',
+    description: 'From-scratch PyTorch implementation of a seq2seq Transformer for Hindi-English NMT. Explores cross-lingual representation learning with shared BPE vocabulary on AI4Bharat and OPUS-100 corpora.',
+    category: 'research',
+    featured: false,
+    tags: ['Python', 'NLP', 'PyTorch'],
+    links: {
+      github: 'https://github.com/Rajat25022005/hindi-english-transformer'
+    }
+  },
+  {
+    id: 15,
+    title: 'Snake Game',
+    description: 'A classic snake game built from scratch in Python — a fun side project exploring game development fundamentals.',
+    category: 'misc',
+    featured: false,
+    tags: ['Python', 'Game Dev', 'Pygame'],
+    links: {
+      github: 'https://github.com/Rajat25022005/sanke_game'
+    }
   }
 ];

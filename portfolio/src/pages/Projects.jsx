@@ -7,7 +7,8 @@ const filters = [
   { id: 'all', label: 'All' },
   { id: 'research', label: 'Research' },
   { id: 'agents', label: 'Agents' },
-  { id: 'fullstack', label: 'Full-Stack' }
+  { id: 'fullstack', label: 'Full-Stack' },
+  { id: 'misc', label: 'Misc' }
 ];
 
 const Projects = () => {
